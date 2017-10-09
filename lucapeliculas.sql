@@ -22,7 +22,7 @@ CREATE TABLE `peliculas` (
   -- `DNAME` varchar(14) COLLATE utf8_spanish_ci NOT NULL,
   -- `LOC` varchar(13) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_id` int(5) not null auto_increment,
-  `pel_tit` varchar(30) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `pel_tit` varchar(70) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_dir` varchar(30) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_gen` varchar(15) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_dur`	int(3) DEFAULT NULL,
