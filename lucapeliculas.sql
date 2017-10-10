@@ -26,7 +26,7 @@ CREATE TABLE `peliculas` (
   `pel_dir` varchar(30) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_gen` varchar(15) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_dur`	int(3) DEFAULT NULL,
-  `pel_ano` date DEFAULT NULL,
+  `pel_ano` int(4) DEFAULT NULL,
   `pel_res` varchar(700) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_ruta_img` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
   `pel_ruta2_img` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
